@@ -6,7 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "cypress",
+    "puppeteer",
+    "@cypress/puppeteer"
+  ],
   "author": "Arthur Ayres",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/puppeteer": "^0.1.4",
+    "puppeteer": "^22.6.5"
+  },
+  "dependencies": {
+    "cypress": "^13.0.0"
+  }
 }
