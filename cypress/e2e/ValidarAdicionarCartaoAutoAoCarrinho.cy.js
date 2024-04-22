@@ -3,6 +3,7 @@
   por tanto, eu decidi fazer o teste em duas partes:
   Primeiro abro a pagina inicial da VR em seguida eu clico no botão Compre online e valido se a loja foi aberta na nova aba.
   Para a primeira parte do teste instalei um plugin oficial chamado Puppeteer que valida a abertura e existência do texto na nova aba.
+  IMPORTANTE: devido ao uso do Puppeteer para validação é obrigatório o uso de um navegador chromiun então implementei um código para mostrar apenas os navegadores compativeis 
   Depois de validado eu fecho a aba e então abro a página da loja na aba principal do cypress e prossigo com o fluxo do teste até o final.
 */
 //Depois de rodar o teste é necessário fechar o navegador e o cypress para então rodar novamente, por algum motivo quando rodar duas vezes seguidas o visit no dominio da VR o carregamento trava dando falha ao teste.
